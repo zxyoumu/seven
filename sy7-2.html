@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商城登录界面</title>
+<style>
+ body{
+            background: url("images/dlbg.jpg")no-repeat top center;
+            padding:50px 0 0 860px;
+ }
+ form{
+            width: 248px;
+            height: 220px;
+            background-color: #F5EAE8;
+            padding: 30px 40px;
+            border: 1px solid #F5EAE8;
+ }
+ input{
+            display: block;
+ }
+ [type="text"],[type="password"]{
+            width:250px;
+            height:38px;
+            border:1px solid #CCC;
+            margin-bottom: 30px;
+            font-size: 16px;
+            text-indent: 50px;
+ }
+ [type="text"]{
+            background:url("images/zhanghao.jpg")no-repeat 0 -2px;
+ }
+ [type="password"]{
+            background: url("images/mima.jpg")no-repeat 0 -2px;
+ }
+ [type="checkbox"]{
+            display: inline;
+            vertical-align: middle;
+ }
+ label{
+            font-size: 12px;
+ }
+ .reg{
+            text-align:center;
+            font-size:12px;
+            margin-top:-18px;         
+ }
+.reg a{
+            color:#999;
+            text-decoration:none;
+}
+.reg a:hover{
+            color:#F00;
+            text-decoration:underline;
+}
+[type="submit"]{
+            width:255px;
+            height:44px;
+            margin:25px auto;
+            background-image:url("images/but.jpg");
+            border:none;
+}
+.related{
+            width:330px;
+            height:145px;
+            background-color:#F5EAE8;
+            border-top:1px solid #DDD;
+            padding-top:20px;
+            text-align:center;
+            font-size:14px;
+}
+</style>
+</head>
+<body>
+<form action-"#" method="post" name="form">
+       <input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+       <input type="password" name="password" placeholder="填写密码">
+       <input type="checkbox" name="account" value="1" id="account">
+       <label for="acount">记住账号</label>
+       <div class="reg">
+            <a href=" ">欢迎注册</a >
+            <a href="#">忘记密码</a >
+       </div>
+       <input type="submit" name="submit" value="">
+</form>
+<div class="related">
+            合作网站账号登录：
+           <a href="#"><img src="images/weixin.png"alt=""></a>
+           <a href="#"><img src="images/qqlogin.png"alt=""></a>
+           <a href="#"><img src="images/taobao.png"alt=""></a>
+</div>
+</body>
+</html>
+
